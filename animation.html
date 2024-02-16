@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: boxanimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+            animation-delay: 2s;
+        }
+
+        @keyframes boxanimation{
+            20%{
+                background-color: blue;
+                margin: 20%;
+                margin-top: 0px;
+            }
+            40%{
+                background-color: green;
+                margin-left: 30%;
+                margin-top: 0px;
+            }
+            60%{
+                background-color: yellow;
+                margin-left: 30%;
+                margin-top: 100px;
+            }
+            80%{
+                background-color: aqua;
+                margin-left: 30%;
+                margin-top: 100px;
+            }
+            100%{
+                background-color: brown;
+                margin-left: 0%;
+                margin-top: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="box">
+        
+    </div>
+
+</body>
+</html>
